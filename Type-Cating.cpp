@@ -12,20 +12,20 @@ using namespace std;
 
 class one
 {
-	int x=3;
+	int e=3;
 	public:
 		int get()
 		{
-			return(x);
+			return(e);
 			
 		}
 		void put(int c)
 		{
-			x =c;
+			e =c;
 		}
 		operator int()
 		{
-			return(x);
+			return(e);
 		}
 };
 
