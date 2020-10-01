@@ -7,15 +7,15 @@ Type Conversion between class and premitive one's
 using namespace std;
 class abc
 {
-	int a,b;
+	int x,y;
 	public:
 		void get_data()
 		{
-			cin>>a>>b;
+			cin>>x>>y;
 		}
 		void put_data()
 		{
-			cout<<a<<b;
+			cout<<x<<y;
 		}
 };
 
