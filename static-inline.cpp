@@ -10,6 +10,7 @@ Inline Functions
 This is the request to the compiler not a command it means that if function is short and have less complexity then the compiler accept it as the inline function otherwiseit will rejected by the compiler and treated as the normal fumction by the compiler.
 */
 
+
 #include<iostream>
 using namespace std;
 
@@ -25,6 +26,7 @@ static int new1;
 		}
 		void print()
 		{
+			/*printing Output*/
 			cout<<new1;
 		}
 		abc()
