@@ -15,7 +15,7 @@ class abc
 		}
 		void put_data()
 		{
-			cout<<x<<y;
+			cout<<x<<y<<endl;
 		}
 };
 
